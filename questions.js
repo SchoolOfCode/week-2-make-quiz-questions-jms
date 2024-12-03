@@ -28,11 +28,31 @@ const question3 = {
   correct_explanation: `In pair programming, the "driver" is the person writing the code, while the "navigator" provides guidance, reviews the code, and thinks strategically about the overall solution.`,
 }
 
+const question4 = {
+  question_text: "Before asking for help with an issue make sure to:",
+  question_type: "multiple_choice",
+  options: ["Understand what is you are trying to ask","Look worried to give a sense of urgency","State that you can't go further if it's not solved.","Make a list of demands."],
+  correct_option: ["Understand what is you are trying to ask"],
+  correct_explanation: "It's important to clearly understand the issue before asking for help, as this ensures you can communicate effectively and get the assistance you need.",
+}
+
+const question5 = {
+  question_text: "The method of coming back to the same topic to reinforce it into our memory is called:",
+  question_type: "multiple_choice",
+  options: ["Memory palace","Spaced repetition","Memory gymnastics","Neural networking"],
+  correct_option: ["Spaced repetition"],
+  correct_explanation: "Spaced repetition is a learning technique where information is reviewed at increasing intervals to enhance long-term retention and reinforce memory.",
+}
+
+
+
 // Don't worry about this, we're just exporting the questions
 module.exports = questions;
 
 
 /*
+
+
 const question1 = {
   question_text: 
   question_type: "multiple_choice",
