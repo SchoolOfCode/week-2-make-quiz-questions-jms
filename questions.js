@@ -8,18 +8,25 @@ const question1 = {
   question_text: "How can you create a new branch directory to work in?",
   question_type: "multiple_choice",
   options: ["git branch", "git check", "git checkout", "git status"],
-  correct_option: options[0],
+  correct_option: ["git branch"],
   correct_explanation: "We use Git branches to work on different features or changes separately without affecting the main codebase."
 }
 
 const question2 = {
-  question_text: 
+  question_text: "When giving feedback is best to:",
   question_type: "multiple_choice",
-  options: 
-  correct_option:
-  correct_explanation:
+  options: ["State your subjective opinions and convince the other person no matter what", "Rush through the topic to bamboozle the feedback receiver","Adopt an assertive approach to understand and give better advice.", "Try to say the least possible."],
+  correct_option: ["Rush through the topic to bamboozle the feedback receiver"],
+  correct_explanation: "This approach allows for clear, constructive, and respectful feedback that encourages improvement and understanding."
 }
 
+const question3 = {
+  question_text: "In pair programming we can see the relation between the developers as:",
+  question_type: "multiple_choice",
+  options: ["Batman and Robin", "Director and coach", "Driver and navigator", "Fugitive and police"],
+  correct_option: ["Driver and navigator"],
+  correct_explanation: `In pair programming, the "driver" is the person writing the code, while the "navigator" provides guidance, reviews the code, and thinks strategically about the overall solution.`,
+}
 
 // Don't worry about this, we're just exporting the questions
 module.exports = questions;
